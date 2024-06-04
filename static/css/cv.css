@@ -1,0 +1,61 @@
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.container h1 {
+    color: #333;
+}
+
+.container h2 {
+    color: #007bff;
+}
+
+.container h3 {
+    color: #555;
+}
+
+.section {
+    border: 1px dashed #999; /* Đường nét đứt, độ dày 1px, màu xám nhạt */
+    padding: 10px; /* Tạo khoảng cách giữa đường nét và nội dung bên trong div */
+    margin-bottom: 20px;
+}
+
+.container ul {
+    padding: 1;
+}
+
+.container p, li {
+    color: #666;
+}
+
+.avatar {
+    width: 150px; /* Chiều rộng của avatar */
+    height: 150px; /* Chiều cao của avatar */
+    border-radius: 50%; /* Bo tròn avatar để làm hình tròn */
+    margin-bottom: 20px; /* Khoảng cách dưới cùng của avatar */
+}
+
+.header-info {
+    /* Để ngăn cách văn bản với avatar */
+    overflow: hidden; /* Tránh văn bản bị "bùng nổ" qua avatar */
+}
+
+
+
+.footer {
+    text-align: center;
+    padding: 1px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

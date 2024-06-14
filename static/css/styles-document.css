@@ -88,8 +88,6 @@ html, body {
     font-family: "IBM Plex Mono", monospace;
     margin: 0;
     padding: 0;
-    display: grid;
-    grid-template-rows: 1fr auto;
     background-color: #f4f4f4; /* Màu nền trang */
 }
 
@@ -176,8 +174,6 @@ nav.sidebar a:hover { /* Khi di chuyển chuột vào button */
 
 main {
     padding: 20px;
-    grid-row: 1 / 2; /* Bắt đầu từ hàng 1 và kết thúc ở hàng 2 */
-    overflow-y: auto; 
 }
 
 h2 {

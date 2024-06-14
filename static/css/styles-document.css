@@ -88,8 +88,6 @@ body {
     font-family: "IBM Plex Mono", monospace;
     margin: 0;
     padding: 0;
-    display: grid;
-    grid-template-rows: 1fr auto;
     background-color: #f4f4f4; /* Màu nền trang */
 }
 

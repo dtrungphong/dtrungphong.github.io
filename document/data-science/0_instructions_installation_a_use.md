@@ -1,3 +1,8 @@
+---
+layout: default
+title: Instructions installation
+---
+
 # Hướng dẫn cài đặt
 
 - Hướng dẫn cài đặt trên [windows](https://docs.anaconda.com/free/anaconda/install/windows/)

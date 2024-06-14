@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: document
 title: Instructions installation
 ---
 
@@ -70,10 +70,13 @@ Hướng dẫn sử dụng trên hệ điều hành Ubuntu/Linux sẽ thực hi�
 
 Một số câu lệnh thao tác cơ bản:
 
-- **pip install <package_name>**: Dùng để cài đặt package mà mình muốn. Mặc định nó sẽ cài đặt phù hợp với các package hiện có trong môi trường
+- **pip install \<package_name\>**: Dùng để cài đặt package mà mình muốn. Mặc định nó sẽ cài đặt phù hợp với các package hiện có trong môi trường
 - **conda list**: Liệt kê danh sách các package trong môi trường hiện tại
 - **conda info --envs**: Liệt kê ra các danh sách môi trường
-- **conda create -n <name_env> python=3.?**: Tạo môi trường có phiên bản python có version là 3.?
-- **conda activate <name_env>**: Kích hoạt môi trường mà bạn muốn sử dụng
-- **conda deactivate <name_env>**: Trở về môi trường mặc định mà mình settings
+- **conda create -n \<name_env\> python=3.?**: Tạo môi trường có phiên bản python có version là 3.?
+- **conda activate \<name_env\>**: Kích hoạt môi trường mà bạn muốn sử dụng
+- **conda deactivate \<name_env\>**: Trở về môi trường mặc định mà mình settings
 - **jupyter notebook**: Mở jupyter notebook trên môi trường hiện tại
+
+
+

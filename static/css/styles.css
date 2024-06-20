@@ -136,7 +136,9 @@ h1 {
 
 .container {
   max-width: 1000px;
+    
   margin: 0 auto;
+  margin-left: 100px;
 }
 
 nav.sidebar {

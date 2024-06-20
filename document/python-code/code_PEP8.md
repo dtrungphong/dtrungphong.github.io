@@ -1,3 +1,8 @@
+---
+layout: document
+title: Code PEP8
+---
+
 # Quy chuẩn code trong Python
 
 PEP8 là một quy chuẩn mã nguồn cho Python, nhằm mục đích cải thiện khả năng đọc và tính nhất quán của mã nguồn. Điều này hạn chế việc không có tính thống nhất trong việc lập trình các dự án.

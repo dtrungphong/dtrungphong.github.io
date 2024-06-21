@@ -87,19 +87,27 @@
 body {
     font-family: "IBM Plex Mono", monospace;
     margin: 0;
-    padding: 0;
+    margin-left: 220px;
+    margin-top: 200px;
+    padding: 80px 20px 20px 20px'
     background-color: #f4f4f4; /* Màu nền trang */
 }
 
 
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 155px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-color: #4b4242;
     color: #fff;
+    z-index: 1000;
 }
 
 .header-content {
@@ -142,10 +150,17 @@ h1 {
 }
 
 nav.sidebar {
+    position: fixed;
+    top: 160px; 
+    left: 0;
+    width: 200px;
+    height: calc(100% - 60px);
     float: left;
     width: 200px;
     background-color: #eee;
     padding: 20px;
+    box-sizing: border-box;
+    z-index: 999; 
 }
 
 nav.sidebar ul {

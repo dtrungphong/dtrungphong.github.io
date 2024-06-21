@@ -87,7 +87,7 @@
 body {
     font-family: "IBM Plex Mono", monospace;
     margin: 0;
-    margin-left: 220px;
+
     margin-top: 200px;
     padding: 80px 20px 20px 20px'
     background-color: #f4f4f4; /* Màu nền trang */
@@ -184,6 +184,7 @@ nav.sidebar a:hover { /* Khi di chuyển chuột vào button */
 }
 
 main {
+    margin-left: 220px;
     padding: 20px;
 }
 
